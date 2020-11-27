@@ -1,0 +1,41 @@
+{
+  "name": "@gucheen/rect-restrict",
+  "version": "1.0.0",
+  "description": "to restrict your target to some areas(rectangle)",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "test": "nyc ava",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  },
+  "keywords": [
+    "rect",
+    "rectangle",
+    "restrict",
+    "position"
+  ],
+  "homepage": "https://github.com/gucheen/rect-restrict#readme",
+  "author": "Cheng Gu <guchengf@gmail.com> (https://www.guchengf.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "ava": "^3.13.0",
+    "gts": "^3.0.2",
+    "nyc": "^15.1.0",
+    "typescript": "^4.0.3"
+  },
+  "ava": {
+    "files": [
+      "test/**/*"
+    ]
+  }
+}
