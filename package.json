@@ -37,5 +37,8 @@
     "files": [
       "test/**/*"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
