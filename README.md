@@ -1,5 +1,7 @@
 # Rect Restrict
 
+![rect-restrict](https://badgen.net/npm/v/@gucheen/rect-restrict)
+
 RectRestrict is a simple util to help you restrict your target to some areas(rectangle).
 
 ## Motivation
