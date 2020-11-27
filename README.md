@@ -2,13 +2,13 @@
 
 ![rect-restrict](https://badgen.net/npm/v/@gucheen/rect-restrict)
 
-RectRestrict is a simple util to help you restrict your target to some areas(rectangle).
+RectRestrict is simple util to help you restrict your target to some areas(rectangle).
 
 ## Motivation
 
-Recently in a project of mine, I need to restrict an user-draggable item to several areas.
+Recently in a project of mine, I need to restrict a user-draggable item to several areas.
 
-Users can drag the item to any where on the web page, but the item finally need to be in several areas when it was dropped.
+Users can drag the item to anywhere on the web page, but the item finally needs to be in several areas when it was dropped.
 
 So, I wrote this simple util.
 
@@ -66,7 +66,7 @@ interface Area {
 }
 // one of top and y should be provided
 // one of left and x should be provided
-// id will be return in check() if it was provided
+// id will be returned in check() if it was provided
 ```
 
 ### class RectRestrict({areas}: {areas?: Area[]} = {})
@@ -104,11 +104,11 @@ interface RestrictPosition {
 
 Check if the target was in one of the areas.
 
-Return the current postion of target if it is already in one of the areas.
+Return the current position of the target if it is already in one of the areas.
 
 Return the closest position of the closest area otherwise.
 
-The closest position means that the restrict position will be one side or corner of the area.
+The closest position means that the restricted position will be one side or corner of the area.
 
 ### RectRestrict.getPosInArea(pos: Partial\<Area\>): Area
 
@@ -118,11 +118,11 @@ Return the area if the given position is in it.
 
 1. Is it too simple to cover some more complex demands?
 
-    This lib(util, well) is focusd on the specific propose - restrict a rectangle in others.
+    This lib(util, well) is focused on the specific proposal - restrict a rectangle in others.
 
 2. What if I need to deal with a polygon or circle?
 
-    Refer to a physical engine or game engine to deal with the complex problems.
+    Refer to a physical engine or game engine to deal with complex problems.
 
 ## MIT License
 
