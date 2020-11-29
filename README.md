@@ -1,6 +1,6 @@
 # Rect Restrict
 
-![rect-restrict](https://badgen.net/npm/v/@gucheen/rect-restrict)
+[![rect-restrict](https://badgen.net/npm/v/@gucheen/rect-restrict)](https://www.npmjs.com/package/@gucheen/rect-restrict)
 
 RectRestrict is simple util to help you restrict your target to some areas(rectangle).
 
