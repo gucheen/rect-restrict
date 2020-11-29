@@ -1,6 +1,6 @@
 {
   "name": "@gucheen/rect-restrict",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "to restrict your target to some areas(rectangle)",
   "main": "build/index.js",
   "types": "build/index.d.ts",
