@@ -1,6 +1,7 @@
 # Rect Restrict
 
 [![rect-restrict](https://badgen.net/npm/v/@gucheen/rect-restrict)](https://www.npmjs.com/package/@gucheen/rect-restrict)
+[![Coverage Status](https://coveralls.io/repos/github/gucheen/rect-restrict/badge.svg?branch=main)](https://coveralls.io/github/gucheen/rect-restrict?branch=main)
 
 RectRestrict is simple util to help you restrict your target to some areas(rectangle).
 
