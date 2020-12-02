@@ -118,6 +118,14 @@ test('getPosInArea()', t => {
   }
   const area = rectRestrict.getPosInArea(target);
   t.is(area.id, areas[0].id);
+  const anotherTarget = {
+    top: 100,
+    left: 100,
+    width: 300,
+    height: 350,
+  }
+  const anotherArea = rectRestrict.getPosInArea(anotherTarget);
+  t.is(anotherArea, null);
 	t.pass();
 });
 
